@@ -5,8 +5,8 @@ import javax.inject.Inject
 
 
 class EmployeeRepository @Inject constructor(
-    private val employeeRepositoryImpl: EmployeeRepositoryImpl)
+    private val employeeRepositoryImpl: EmployeeRepositoryImpl):MainRepository
 {
-    suspend fun getEmployees(): List<EmployeeEntity> =
+    override suspend fun getEmployees(): List<EmployeeEntity> =
         employeeRepositoryImpl.getEmployees()
 }
