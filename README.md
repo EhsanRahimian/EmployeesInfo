@@ -34,6 +34,7 @@ All the dependencies/libraries were copied and pasted.
 These features are used:
 Kotlin, Retrofit, Glide, Hilt, Gson, coroutines, view binding and MVVM design pattern.
 
+Mobile Device: Pixel 3 XL
+![screenshot-1654643994588](https://user-images.githubusercontent.com/22824706/172499532-f2a4df94-96b1-4bf3-a856-74b890ad8533.png)
 
-![screenshot-1654643994588](https://user-images.githubusercontent.com/22824706/172499086-77af94d5-de90-45ee-a6c6-179471e2d170.png)
 
