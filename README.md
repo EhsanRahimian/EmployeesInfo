@@ -1,6 +1,6 @@
 # EmployeesInfo
 This is a home assignment project provided by 
-## Square company.
+Square company.
 
 ## Build tools & versions used
 Android Studio Chipmunk | 2021.2.1 Patch 1
@@ -34,9 +34,9 @@ All the dependencies/libraries were copied and pasted.
 ## Is there any other information you’d like us to know?
 These features are used:
 Kotlin, Retrofit, Glide, Hilt, Gson, coroutines, view binding and MVVM design pattern.
+Also, please test this app with Airplan mood.
 
-## It is bether if we get the data from network and cache it into the sqlite databace and then display the data on the UI.
-## I did not use cache persistence library because in the task we were required only to use the remote data source 
+## It is bether if we get the data from network and cache it into the sqlite databace and then display the data on the UI. I did not use cache persistence library because in the task we were required only to use the remote data source 
 
 
 ## Mobile Device: Pixel 3 XL
