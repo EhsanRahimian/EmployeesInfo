@@ -34,3 +34,6 @@ All the dependencies/libraries were copied and pasted.
 These features are used:
 Kotlin, Retrofit, Glide, Hilt, Gson, coroutines, view binding and MVVM design pattern.
 
+
+![screenshot-1654643994588](https://user-images.githubusercontent.com/22824706/172499086-77af94d5-de90-45ee-a6c6-179471e2d170.png)
+
