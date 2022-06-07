@@ -65,9 +65,8 @@ dependencies {
     }
 
 
-    /* --- Testing --- */
 
-    /* ---  Unit Tests --- */
+    //Unit Tests
     final MOCKK_VERSION = '1.10.0'
     testImplementation "io.mockk:mockk:$MOCKK_VERSION"
     testImplementation 'com.github.javafaker:javafaker:1.0.2'
@@ -76,7 +75,6 @@ dependencies {
     testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.1'
 
     // JUnit 5
-//    final JUNIT_5_VERSION = '5.6.1'
     testImplementation "org.junit.jupiter:junit-jupiter-api:5.8.0-M1"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.8.0-M1"
 
