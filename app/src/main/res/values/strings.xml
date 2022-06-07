@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">EmployeesInfo</string>
+    <string name="small_image">small image</string>
+    <string name="no_employee">No Employee!</string>
+    <string name="oh_check_connection">Oh!…Check your internet connection and then refresh the screen.</string>
+    <string name="error">error</string>
 </resources>
