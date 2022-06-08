@@ -27,10 +27,10 @@ class TestEmployeesViewModel : BaseTest(){
 
     private lateinit var employeesViewModel: EmployeesViewModel
 
-    @OptIn(DelicateCoroutinesApi::class)
+
     private val mainThreadSurrogate = newSingleThreadContext("UI thread")
 
-    @OptIn(ExperimentalCoroutinesApi::class)
+
     @BeforeEach
     override fun setUp() {
         super.setUp()
@@ -38,7 +38,7 @@ class TestEmployeesViewModel : BaseTest(){
         employeesViewModel = EmployeesViewModel(employeeRepository)
     }
 
-    @OptIn(ExperimentalCoroutinesApi::class)
+
     @AfterEach
     override fun tearDown() {
         Dispatchers.resetMain() // resets the main dispatcher
