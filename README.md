@@ -29,7 +29,7 @@ It is bether if we get the data from network and cache it into the sqlite databa
 I did not use cache persistence library because in the task we were required only to use the remote data source.
 
 ## Did you copy any code or dependencies? Please make sure to attribute them here!
-All the dependencies/libraries were copied and pasted.
+All the libraries were copied and pasted in the dependencies build.gradle file
 
 ## Is there any other information you’d like us to know?
 These features are used:
