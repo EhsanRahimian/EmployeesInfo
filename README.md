@@ -25,8 +25,8 @@ and also it will be easier to develop and add the features in the future
 310 minutes 
 
 ## Did you make any trade-offs for this project? What would you have done differently with more time?
-Dependency injection (Hilt)
-UnitTest
+It is bether if we get the data from network and cache it into the sqlite databace and then display the data on the UI. 
+I did not use cache persistence library because in the task we were required only to use the remote data source.
 
 ## Did you copy any code or dependencies? Please make sure to attribute them here!
 All the dependencies/libraries were copied and pasted.
@@ -35,8 +35,6 @@ All the dependencies/libraries were copied and pasted.
 These features are used:
 Kotlin, Retrofit, Glide, Hilt, Gson, coroutines, view binding and MVVM design pattern.
 Also, please test this app with Airplan mood.
-
-## It is bether if we get the data from network and cache it into the sqlite databace and then display the data on the UI. I did not use cache persistence library because in the task we were required only to use the remote data source 
 
 
 ## Mobile Device: Pixel 3 XL
